@@ -20,4 +20,7 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
 main().catch(error => {
     console.log(error);
 });
+process.on("unhandledRejection", (reason, promise) => {
+    console.log("Unhandled Rejection because of:", reason, promise);
+});
 //# sourceMappingURL=index.js.map

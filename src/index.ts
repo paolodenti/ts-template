@@ -8,3 +8,7 @@ const main = async () => {
 main().catch(error => {
     console.log(error);
 });
+
+process.on("unhandledRejection", (reason, promise) => {
+    console.log("Unhandled Rejection because of:", reason, promise);
+});
