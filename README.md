@@ -2,7 +2,7 @@
 
 With nodemon and ts-node for dev.
 
-With eslint, prettier, husky.
+With eslint, prettier, husky, mocha.
 
 ## Typescript VSCode Debug
 
